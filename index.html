@@ -1,5 +1,645 @@
-<html>
-<body>
-<h1>Hello</h1>
-</body>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <!---<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
+        
+	<meta name="google-site-verification" content="MWUN742pK2Co-sqjcPjbeXRV1mEAHKOLmkL2_OJ-UW8" />
+	
+	<title>Dr. Joseph Maguire, Usable Security &amp; Privacy, University of Glasgow</title> 
+	<meta name="description" content="Security researcher at the University of Glasgow, specialising in authentication and privacy.">	
+
+	<!--<meta name="description" content="Homepage">-->
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" media="screen" href="css/normalize.min.css">
+        <link rel="stylesheet" media="screen" href="css/hyde.css">
+		<link rel="stylesheet" media="screen" href="css/additions.css">
+		<link rel="stylesheet" media="print" href="css/print.css">
+	
+        <script async src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script async type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+		
+		<!--<script src="http://code.jquery.com/jquery-1.10.2.js"></script>-->
+		<script>
+		(function() {
+      function getScript(url,success){
+        var script=document.createElement('script');
+        script.src=url;
+        var head=document.getElementsByTagName('head')[0],
+            done=false;
+        script.onload=script.onreadystatechange = function(){
+          if ( !done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete') ) {
+            done=true;
+            success();
+            script.onload = script.onreadystatechange = null;
+            head.removeChild(script);
+          }
+        };
+        head.appendChild(script);
+      }
+        getScript('http://code.jquery.com/jquery-1.10.2.js',function(){
+            // YOUR CODE GOES HERE AND IS EXECUTED AFTER JQUERY LOADS
+            $("#masthead").load("masthead.html");
+        });
+    })();
+		</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-4423153-4', 'auto');
+  ga('require','linkid');
+  ga('send', 'pageview');
+
+</script>
+<!--
+<script>
+$(function(){
+$("#masthead").load("masthead.html");
+});
+</script>
+-->
+
+<!-- Hotjar Tracking Code for www.josephmaguire.co.uk -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:320949,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<!--Toggle Script -->
+<script type="text/javascript"><!--
+function HideContent(d) {
+document.getElementById(d).style.display = "none";
+}
+function ShowContent(d) {
+document.getElementById(d).style.display = "block";
+}
+function ReverseDisplay(d) {
+if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
+else { document.getElementById(d).style.display = "none"; }
+}
+//--></script>
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <div class="header-container">
+	
+<div id="masthead"></div>
+	</div>
+
+		<div class="content container">
+
+			<div class="posts">
+				
+				
+				
+	<div class="post">
+		<h1><a id="admin">Service</a></h1>
+		<h4>Committees</h4> 
+<ul>
+	<li>Associate Chair for Late Breaking Work program committee for the <a href="http://chi2016.acm.org/wp/">34th Annual ACM Conference on Human Factors in Computing Systems (CHI 2016)</a></li>
+	
+	<li>Part of organising committee, alongside <a href="http://www.dcs.gla.ac.uk/~quintin" rel="contact met colleague">Prof. Quintin Cutts</a> and <a href="http://www.dcs.gla.ac.uk/~rose" rel="contact met colleague">Dr. Rose English</a>, for the ACM and SIGCSE sponsored <a href="http://icer.hosting.acm.org">10th International Computing Education Research Conference (ICER)</a>.</li>
+	</ul>
+	
+	
+	<h4>Conferences</h4>
+	<ul>
+	
+	<li>Peer reviewer for the <a href="http://www.stprp-activity.com/TrustCom2017">16th IEEE International Conference On Trust, Security And Privacy In Computing And Communications</a></li>
+	
+	<li>Peer reviewer for the <a href="http://uist.acm.org/uist2017/">ACM SIGCHI and SIGGRAPH 30th User Interface and Technology Symposium (UIST 2017)</a></li>
+	
+	
+	<li>Peer reviewer for the <a href="http://mobilehci.acm.org/2017/">ACM SIGCHI 19th International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI 2017)</a></li>
+	<li>Peer reviewer for the <a href="http://www.idc2017.org">ACM SIGCHI 16th Annual Interaction Design and Children Conference (IDC 2017)</a></li>
+	<li>Peer reviewer for the <a href="http://www.dis2017.org">ACM SIGCHI Conference on Designing Interactive Systems (DIS 2017)</a></li>
+<li>Peer reviewer for the <a href="http://www.internetsociety.org/events/ndss-symposium-2016/usec-workshop-programme-0/usec-workshop-call-papers">NDSS Workshop on Usable Security (USEC 2017)</a></li>
+
+	<li>Peer reviewer for the <a href="http://cscw.acm.org/2017/index.php">20th Annual ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2017)</a></li>
+	<li>Peer reviewer for the <a href="https://chi2017.acm.org">35th Annual ACM Conference on Human Factors in Computing Systems (CHI 2017)</a></li>
+	
+	<li>Peer reviewer for the <a href="http://humanrobotinteraction.org/2017/">12th Annual ACM Conference on Human Robot Interaction (HRI 2017)</a></li>
+
+	<li>Peer reviewer for the <a href="http://mobilehci.acm.org/2016/">ACM SIGCHI 18th International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI 2016)</a></li>
+	<li>Peer reviewer for the <a href="http://www.idc2016.org">ACM SIGCHI 15th Annual Interaction Design and Children Conference (IDC 2016)</a></li>
+	<li>Peer reviewer for the <a href="http://www.dis2016.org">biennial ACM SIGCHI Conference on Designing Interactive Systems (DIS 2016)</a></li>
+<li>Peer reviewer for the <a href="http://cscw.acm.org/2016/index.php">19th Annual ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2016)</a></li>
+<li>Peer reviewer for the <a href="http://chi2016.acm.org/wp/">34th Annual ACM Conference on Human Factors in Computing Systems (CHI 2016)</a></li>
+</ul>
+
+
+	<h4>Journals</h4>
+
+
+<ul>
+
+
+<li>Peer reviewer for the <a href="http://www.signalprocessingsociety.org/publications/periodicals/forensics/">IEEE Transactions on Information Forensics &amp; Security</a> journal (top ranking in <a href="https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computersecuritycryptography">Computer Security &amp; Cryptography</a>).</li>
+
+<li>Peer reviewer for the <a href="http://www.journals.elsevier.com/international-journal-of-human-computer-studies/">International Journal of Human-Computer Studies (IJHCS)</a> (top ranking in <a href="https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_humancomputerinteraction">Human Computer Interaction</a>). </li>
+<li>Peer reviewer for the <a href="https://www.computer.org/web/tsc">IEEE Transactions on Services Computing (TSC)</a> journal. </li> <!-- https://scholar.google.co.uk/citations?view_op=top_venues&hl=en&vq=eng_computingsystems -->
+</ul>
+
+<h4>Teaching &amp; Research</h4>
+<ul>
+<li>Technology Enhanced Learning &amp; Teaching representative for the School of Computing Science.</li>
+<li>University of Glasgow representative for the <a href="https://employability.disciplinarycommons.org">Graduate Employability Community in Computing (GECCO) workshop</a> series.</li>
+<!--<li>Supervision of three final year project student dissertations for 2015-2016 session</li> -->
+<!--<li>Co-supervision of four Honours-level final year dissertations alongside <a href="http://www.dcs.gla.ac.uk/~karen/" rel="contact met colleague">Dr. Karen Renaud</a> for 2014-2015 session.</li>-->
+<!--<li>Co-supervision of five Masters-level dissertations alongside <a href="http://www.dcs.gla.ac.uk/~karen/" rel="contact met colleague">Dr. Karen Renaud</a> and <a href="http://www.dcs.gla.ac.uk/~rose" rel="contact met colleague">Dr. Rose English</a> for 2014-2015 session.</li>-->
+<li>Software Engineering &amp; Information Security Research talk coordinator for 2014-2015 session.</li>
+</ul>
+
+<h4>Outreach</h4>
+<ul>
+<li>Participant in <a href="https://www.myworldofwork.co.uk/learn-and-train/events-and-fairs">outreach videos</a> from Skills Development Scotland to attract individuals into higher education.</li>
+</ul>                  
+	</div>
+
+
+			</div>
+			
+				
+				
+
+				<div class="post">
+				
+<h1><a id="publications">Publications</a></h1>
+<dl>
+<dt>
+<a href="https://www.secuso.informatik.tu-darmstadt.de/de/secuso-home/team/andreas-gutmann/" rel="friend met colleague">Gutmann, A.</a>, <a href="http://www.dcs.gla.ac.uk/~karen" rel="friend met colleague">Renaud, K.</a>, Maguire, J., <a href="https://www.secuso.informatik.tu-darmstadt.de/de/staff/peter-mayer/" rel="acquaintance met">Mayer, P.</a>, <a href="http://www.secuso.informatik.tu-darmstadt.de/en/staff/melanie-volkamer/" rel="acquaintance met">Volkamer, M.</a>, <a href="http://kmlab.iis.u-tokyo.ac.jp/kanta_matsuura.html">Matsuura, K.</a> and <a href="https://crypto.iti.kit.edu/index.php?id=mueller-quade">Müller-Quade, J.</a> "ZeTA - Zero-Trust Authentication: Relying on Innate Human Ability, not Technology" To appear  In Proceedings of the 1st IEEE European Symposium on Security and Privacy, (Saarbrücken, Germany, 2016), IEEE.
+<p><small>Acceptance rate: 17.6% / <a href="javascript:ReverseDisplay('abstract1')">Abstract</a> / <a href="http://eprints.gla.ac.uk/116159/1/116159.pdf">PDF</a></small></p>
+
+</dt>
+
+<dd>
+<div id="abstract1" style="display:none;">
+<small>
+Reliable authentication requires the devices and channels involved in the process to be trustworthy; otherwise authentication secrets can easily be compromised. Given the unceasing efforts of attackers worldwide such trustworthiness is increasingly not a given. A variety of technical solutions, such as utilising multiple devices/channels and verification protocols, has the potential to mitigate the threat of untrusted communications to a certain extent. Yet such technical solutions make two assumptions: (1) users have access to multiple devices and (2) attackers will not resort to hacking the human, using social engineering techniques. In this paper, we propose and explore the potential of using human-based computation instead of solely technical solutions to mitigate the threat of untrusted devices and channels. ZeTA (Zero Trust Authentication on untrusted channels) has the potential to allow people to authenticate despite compromised channels or communications and easily observed usage. 
+
+The contributions of this paper are:
+</small>
+<ol type="i">
+<li><small>we propose the ZeTA protocol with a formal definition and security analysis that utilises semantics and human-based computation to ameliorate the problem of untrusted devices and channels.</small></li>
+<li>
+<small>we outline a security analysis to assess the envisaged performance of the proposed authentication protocol.</small></li>
+<li><small>we report on  a  usability study that explores the viability of relying on human computation in this context.</small></li>
+</ol>
+</div>
+</dd>
+
+
+<dt style="margin-top:20px;text-align: justify;">Maguire, J. and <a href="http://www.dcs.gla.ac.uk/~karen" rel="friend met colleague">Renaud, K.</a> "<a href="http://dx.doi.org/10.1109/STAST.2015.13">Alternative Authentication in the Wild</a>" In Proceedings of the 5th Annual Workshop on Socio-Technical Aspects in Security and Trust, co-located with the 28th IEEE Computer Security Foundations Symposium, (Verona, Italy, 2015), IEEE, pp.32-39.
+<p><small><a href="javascript:ReverseDisplay('abstract2')">Abstract</a> / <a href="https://arxiv.org/pdf/1601.05483.pdf">PDF</a> 
+<!--  
+/ <a href="https://vimeo.com/133765693">Video</a> / <a href="https://speakerdeck.com/josephmaguire/lessons-learned-from-the-wild-a-field-evaluation-of-a-graphical-authentication-mechanism">Slide Deck</a>
+-->
+</small></p></dt>
+<dd>
+<div id="abstract2" style="display:none;">
+	<small>
+	Alphanumeric authentication routinely fails to regulate access to resources with the required stringency, primarily due to usability issues. Initial deployment did not reveal the problems of passwords, deep and profound flaws only emerged once passwords were deployed in the wild. The need for a replacement is widely acknowledged yet despite over a decade of research into knowledge-based alternatives, few, if any, have been adopted by industry. Alternatives are unconvincing for three primary reasons. The first is that alternatives are rarely investigated beyond the initial proposal, with only the results from a constrained lab test provided to convince adopters of their viability. The second is that alternatives are seldom tested realistically where the authenticator mediates access to something of value. The third is that the testing rarely varies the device or context beyond that initially targeted. In the modern world different devices are used across a variety of contexts. What works well in one context may easily fail in another. Consequently, the contribution of this paper is an "in the wild" evaluation of an alternative authentication mechanism that had demonstrated promise in its lab evaluation. In the field test the mechanism was deployed to actual users to regulate access to an application in a context beyond that initially proposed. The performance of the mechanism is reported and discussed. We conclude by reflecting on the value of field evaluations of alternative authentication mechanisms.
+
+	The contributions of this paper are:
+	</small>
+	<ol type="i">
+	<li>
+	<small>we report on a field investigation of a previously proposed alternative authentication mechanism.</small>
+	</li>
+	<li>
+	<small>we highlight aspects related to the design and methodological considerations that need to be considered in carrying out a field investigation of an alternative authentication mechanism that performed well it its initial evaluations.
+	</small>
+	</li>
+	<li>
+	<small>we discuss  the lessons we learned and reflect on the value of probationing an alternative authentication mechanism in the wild.</small></li>
+	</ol>
+
+
+	<div class="video-container">
+	<iframe src="//player.vimeo.com/video/133765693?title=0&byline=0&portrait=0" allowfullscreen></iframe>
+	</div>
+</div>
+</dd>
+
+<dt style="margin-top:20px;"><a href="http://www.dcs.gla.ac.uk/~karen" rel="friend met colleague">Renaud, K.</a> and Maguire, J. "<a href="http://dx.doi.org/10.1145/2702123.2702456">Regulating Access to Adult Content (with Privacy Preservation)</a>" In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems, (Seoul, South Korea, 2015), ACM, pp.4019-4028.
+<p><small>Acceptance rate: 23.0% / <a href="javascript:ReverseDisplay('abstract3')">Abstract</a> / <a href="http://eplrints.gla.ac.uk/102715/1/102715.pdf">PDF</a> 
+
+<!--  / <a href="https://vimeo.com/130044333">Video</a> / <a href="https://speakerdeck.com/josephmaguire/regulating-access-to-adult-content-with-privacy-preservation">Slide Deck</a>
+-->
+</small></p>
+</dt>
+
+<dd>
+<div id="abstract3" style="display:none;">
+<small>
+In the physical world we have well-established mechanisms for keeping children out of adult-only areas. In the virtual world this is generally replaced by self declaration. Some service providers  resort to using heavy-weight identification mechanisms, judging adulthood as a side effect thereof.  
+Collection of identification data arguably constitutes an unwarranted privacy invasion in this context, if carried out merely to perform adulthood estimation. This paper presents a mechanism that exploits the adult's more extensive exposure to public media, relying on the likelihood that they will be able to recall details if cued by a carefully chosen picture. We conducted an online study to gauge the viability of this scheme. With our prototype we were able to predict that the user was a child 99% of the time. Unfortunately the scheme also misclassified too many adults. We discuss our results and suggest directions for future research.
+
+The contributions of this paper are:
+</small>
+<ol type="i">
+<li>
+<small>the concept of knowledge-based regulation of access to adult content</small></li>
+<li><small>proven accuracy of the scheme based on two studies, using empirically validated images to perform adulthood estimation</small></li>
+<li><small>discussion of the implementation challenges and proposals for future work</small></li>
+</ol>
+<!--
+
+30 second preview:
+<div class="video-container">
+<iframe src="//player.vimeo.com/video/119941659?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>
+</div>
+-->
+<div class="video-container">
+<iframe src="//player.vimeo.com/video/130044333?title=0&byline=0&portrait=0" allowfullscreen></iframe>
+</div>
+
+</div>
+</dd>
+
+
+<dt><a href="http://www.dcs.gla.ac.uk/~karen" rel="friend met colleague">Renaud, K.</a>, <a href="http://www.secuso.informatik.tu-darmstadt.de/en/staff/melanie-volkamer/" rel="acquaintance met">Volkamer, M.</a> and Maguire, J. (2014) "<a href="http://dx.doi.org/10.1007/978-3-319-07620-1_17">ACCESS: Describing and Contrasting Authentication Mechanisms</a>" In Proceedings of the Second International Conference on Human Aspects of Information Security, Privacy, and Trust, (Crete, Greece, 2014), Springer International Publishing, pp.183-194.
+<p><small><a href="javascript:ReverseDisplay('abstract4')">Abstract</a></small></p>
+</dt>
+<dd>
+<div id="abstract4" style="display:none;">
+<small>
+The password the almost universal authentication solution yet is buckling under the strain. It demonstrates insufficiency and weakness due to poor choice, reuse and ease of transfer. Graphical passwords, biometrics, and hardware tokens have been suggested as alternatives. Industry has, unfortunately, not embraced these alternatives. One possible explanation is the complexity of the choice process. To support authentication decision-markers we suggest a framework called ACCESS (Authentication ChoiCE Support System) which captures requirements, consults a knowledge base of existing authentication mechanisms and their properties, and suggests those mechanisms that match the specified requirements.
+</small>
+</div>
+</dd>
+
+<!--
+<dt>
+<a href="http://www.dcs.gla.ac.uk/~karen" rel="friend met colleague">Renaud, K.</a>, Maguire, J., van Niekerk, J., &amp; Kennes, D. (2014) "Contemplating Skill-based Authentication". Africa Research Journal, vol. 105 no. 2 pp. 48-60 .
+</dt>
+<dd>
+<small>
+Humans develop skills as they go through their lives: some are fairly common, such as reading, but others are developed to maximise employment opportunities. These skills develop over a long period of time and are much rarer. Here we consider whether we can exploit this reality in the security arena, specifically to achieve a stronger form of authentication. Authentication has traditionally been performed based on what users know, hold or are. The first is the most popular, in the form of the password. This is often referred to as “knowledge-based” authentication. Yet, rigorously following guidelines for password creation produces forgettable gibberish and nonsense strings, not knowledge. Nonsense is hard to remember and users engage in a number of coping strategies to ameliorate this, and these tend to weaken the authenticator. It would be beneficial to find a way of reducing this memorial load, to identify a more usable mechanism. This is hard: usually reducing the memorial load also makes the secret easier to guess. The challenge is in finding a way to reduce memory load while holding the line as far as strength is concerned. Here we contemplate exploiting recognition of artefacts resulting from experts practicing their craft: “skill-based” authentication. This should reduce the memorial load and effort, but also, crucially, make it harder for a random intruder to replicate. We report on how we trialled SNIPPET, a prototype of an authentication mechanism that relied on an expert programmer identifying his/her own code snippets from successive challenge sets. We found that our participants were all able to identify their own code snippets and that other participants were unable to guess these, even when they observed the legitimate person authenticating beforehand. These findings are not conclusive given the small number of participants but they do show promise and suggest that this is an area worth pursuing. We conclude by returning to the three NIST-identified forms of authentication and consider how SNIPPET can be positioned within the general authentication arena.
+</small>
+</dd>
+-->
+
+<dt>
+<a href="http://www.dcs.gla.ac.uk/~karen" rel="friend met colleague">Renaud, K.</a>, <a href="https://www.secuso.informatik.tu-darmstadt.de/de/staff/peter-mayer/" rel="acquaintance met">Mayer, P.</a>, <a href="http://www.secuso.informatik.tu-darmstadt.de/en/staff/melanie-volkamer/" rel="acquaintance met">Volkamer, M.</a> and Maguire, J. "<a href="http://ieeexplore.ieee.org/xpl/abstractSimilar.jsp?tp=&arnumber=6644107&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6644107">Are Graphical Authentication Mechanisms As Strong As Passwords?</a>" In Proceedings of the 2013 Federated Conference on Computer Science and Information Systems, (Krako, Poland, 2013), IEEE, pp.837-844.
+<p><small><a href="javascript:ReverseDisplay('abstract5')">Abstract</a></small></p>
+</dt>
+
+<dd>
+<div id="abstract5" style="display:none;">
+<small>
+The fact that users struggle to keep up with all their (textual) passwords is no secret. Thus, one could argue that the textual password needs to be replaced. One alternative is graphical authentication. A wide range of graphical mechanisms have been proposed in the research literature. Yet, the industry has not embraced these alternatives. We use nowadays (textual) passwords several times a day to mediate access to protected resources and to ensure that accountability is facilitated. Consequently, the main aspect of interest to decision-makers is the strength of an authentication mechanism to resist intrusion attempts. Yet, researchers proposing alternative mechanisms have primarily focused on the users' need for superior usability while the strength of the mechanisms often remains unknown to the decision makers. In this paper we describe a range of graphical authentication mechanisms and consider how much strength they exhibit, in comparison to the textual password. As basic criteria for this comparison, we use the standard guessability, observability and recordability metrics proposed by De Angeli et al. in 2005. The intention of this paper is to provide a better understanding of the potential for graphical mechanisms to be equal to, or superior to, the password in terms of meeting its most basic requirement namely resisting intrusion attempts.
+</small>
+</div>
+</dd>
+
+<dt>
+<a href="http://www.dcs.gla.ac.uk/~karen" rel="friend met colleague">Renaud, K.</a>, Kennes, D., <a href="http://www.nmmu.ac.za/JohanVanNiekerk/">van Niekerk, J.</a> and Maguire, J. "<a href="http://dx.doi.org/10.1109/ISSA.2013.6641059">SNIPPET: Genuine knowledge-based authentication</a>" In Proceedings of the 13th Annual Conference on Information Security, (Johannesburg, South Africa, 2013), IEEE, pp.1-8.
+<p><small><a href="javascript:ReverseDisplay('abstract2')">Abstract</a></small></p>
+</dt>
+
+<dd>
+<div id="abstract6" style="display:none;">
+<small>
+Authentication is traditionally performed based on what you know, what you hold or what you are. The first is the most popular, in the form of the password. This is often referred to as “knowledge-based” authentication. Yet, given the guidelines for password restrictions commonly given to end-users we will argue that this is a misnomer. A strong password is actually a lengthy string of gibberish or nonsense. Common password strength guidelines advise users against choosing meaningful passwords.
+
+Humans are not very good at remembering nonsense strings so they very reasonably choose meaningful passwords which are easily guessed. This appears to constitute a stand off between the mnemonic needs of end users and the security needs of the system. If we could find a way of reducing the mnemonic load on users they might well be more likely to choose stronger authentication secrets. We could, for example, rely on pre-existing knowledge rather than requiring users to memorise a random alphanumeric string. If we were able to do this it should be easier for them to respond, and also harder for a random intruder to replicate the knowledge.
+
+Testing knowledge directly is probably infeasible in an au- thentication setting. We will show that experts can identify what they themselves produce as they go about carrying out their own skilled activities.
+
+We trialled a prototype mechanism which tested the mem- orability, observability and guessability of an authentication mechanism that relied on an expert programmer identifying his/her own code snippets. We conducted a pilot study and report on our findings. These findings are not conclusive given the small number of participants but they do show promise and suggest that this is an area worth pursuing.
+</small>
+</div>
+</dd>
+<!--
+<dt>
+Maguire, J. &amp; <a href="http://www.dcs.gla.ac.uk/~karen" rel="friend met colleague">Renaud, K.</a> (2013) "Shrinking the Authentication Footprint" pp.2-11 in Proceedings of the 7th International Symposium on Human Aspects of Information Security &amp; Assurance, Lisbon May 2013.
+</dt>
+
+<dd>
+<small>
+Developers create paths for users to tread. Some users will stay on the beaten track; others will diverge and take risky shortcuts. If user-preferred and developer-created paths diverge too much, it is time for the developer to consider a new path. A case in point is the humble password. They fill an important developer need: a cheap and easy mechanism to control access and enforce accountability. Unfortunately, users find the constant requests for authentication a nuisance. They respond by walking down risky paths that compromise the mechanism but allow them to satisfy goals more quickly. The answer, for some researchers, has been to come up with password alternatives. This focus is misguided, since the alternatives do nothing to reduce the authentication footprint. The reality is that developers overuse authentication. The problem is not the authentication step, but rather its position in the path. Authentication is sometimes used even when there is no real need for it. This creates confusion in the user’s mind about the consequences of authentication: sometimes it authorises significant side effects and other times it is difficult to identify its raison d’etre. Here we suggest some developer patterns which minimise authentication requests, emphasising necessity rather than gratuitousness. We believe this will help to ease the current situation by moving towards genuine risk mitigation rather than harming authentication by excessive use thereof.
+</small>
+</dd>
+
+
+<dt>
+<a href="http://www.dcs.gla.ac.uk/~karen" rel="friend met colleague">Renaud, K.</a> &amp; Maguire, J. (2013) "How do you solve a problem like Authentication?" in Human Factors in the Safety and Security of Critical Systems Workshop, Glasgow March 2013.
+</dt>
+<dd>
+<small>
+<p>
+The security aspect that the computer user encounters most often is the password prompt - a demand that they verify their identity by providing a shared secret. Authentication, for the deployer, regulates access and enforces accountability. Authentication, for the user, obstructs, intrudes and delays gratification. Whereas users could probably put up with this if it happens relatively infrequently, this tends not to be the case. An authentication prompt is presented a number of times during the day. Sometimes it has serious consequences, such as when it is required to authorise the purchase of a digital item, and the permits consequent credit card charge. Other times it merely identifies the user to allow the system to customise the interface. The range of consequences and the multiplicity of systems mandating shared secrets collide with human limitations and the current password bloat and general end-user exasperation.
+</p>
+<p>
+Is it at all possible to improve authentication? As researchers, we have primarily addressed this problem in one of three ways: (1) by trying to find a password replacement, (2) by formulating rules and regulations to coerce users into choosing stronger passwords, or (3) fostering a security culture within the organisation, hoping that the social pressure will induce people to behave more securely. These endeavours have met with limited success. Alternatives have not been embraced by the developer community, rules and regulations are often ignored, subverted or deliberately flouted. Fostering a security culture has had more success, in relative terms, but still has not really addressed the “authentication problem”. The one thing these approaches have in common is their focus on the human agent: the end user.
+</p>
+<p>
+Consider a related problem in the physical world: locks on doors. These have not changed in centuries and the doors themselves are probably weaker than they were a hundred years ago. Yet do locks really prevent intrusion? A determined intruder finds the average lock an minor deterrent, and the door itself is sometimes even made of glass, allowing the thief to subvert the lock entirely. Yet one never hears about a desperate search for a door or lock replacement. One doesn’t hear the refrain, ‘How do you solve a problem like the door lock? This even though they, too, are lost, copied and shared. Why, when it comes to virtual locks, is there such a drive to come up with the perfect locking mechanism? The password and the average door lock function similarly: neither is perfect but both provide an acceptable measure of security. Here we will argue that it might be time to suspend our unrealistic expectations that we can find a perfect lock in the virtual world when we live quite happily with imperfect security in the physical world.
+</p>
+</small>
+</dd>
+-->
+
+<dt>
+Maguire, J. &amp; <a href="http://www.dcs.gla.ac.uk/~karen" rel="friend met colleague">Renaud, K.</a> "<a href="http://doi.acm.org/10.1145/2377916.2377975">You only live twice or the years we wasted caring about shoulder-surfing</a>" In Proceedings of the 26th British HCI Group Annual Conference on People and Computers, (Birmingham, United Kingdom, 2012), ACM, pp.404-409.
+<p><small><a href="javascript:ReverseDisplay('abstract7')">Abstract</a> <!--/ <a href="https://arxiv.org/pdf/1508.05626.pdf">PDF</a> / <a href="https://speakerdeck.com/josephmaguire/you-only-live-twice-or-the-years-we-wasted-caring-about-shoulder-surfing">Slide Deck</a>--></small></p>
+</dt>
+<dd>
+<div id="abstract7" style="display:none;">
+
+<small>
+Passwords are a good idea, in theory. They have the potential to act as a fairly strong gateway. In practice though, passwords are plagued with problems. They are (1) easily shared, (2) trivial to observe and (3) maddeningly elusive when forgotten. While alternatives to passwords have been proposed, none, as yet, have been adopted widely. There seems to be a reluctance to switch from tried and tested passwords to novel alternatives, even if the most glaring flaws of passwords can be mitigated. One argument is that there is not enough investigation into the feasibility of many password alternatives. Graphical authentication mechanisms are a case in point. Therefore, in this paper, we detail the design of two prototype applications that utilise graphical authentication mechanisms. However, when forced to consider the design of such prototypes, we find that pertinent password problems eg. observation of entry, are just that: password problems. We conclude that effective, alternative authentication mechanisms should target authentication scenarios rather than the well-known problems of passwords. This is the only route to wide-spread adoption of alternatives.
+</small>
+</div>
+</dd>
+<dt>
+Maguire, J. &amp; <a href="http://www.dcs.gla.ac.uk/~karen" rel="friend met colleague">Renaud, K.</a> (2011) "An Alternative Avatar" Health, Wealth and Identity Theft Workshop at the 25th British HCI Group Annual Conference on People and Computers, (Newcastle, United Kingdom, 2011), ACM.
+<p><small><a href="javascript:ReverseDisplay('abstract8')">Abstract</a><!-- / <a href="http://openlab.ncl.ac.uk/bhci-securityprivacy/files/2015/01/Maguire.pdf">PDF</a>--></small></p>
+</dt>
+
+<dd>
+<div id="abstract8" style="display:none;">
+<small>
+Fragments of information are generated and maintained, everyday. In the aggregate, these fragments are crucial to companies like Google and Facebook. Therefore, they create free services which drive the creation of fragments and discourage the destruction of them. However, there are potentially unforeseen costs, in terms of security and energy, in managing all these fragments. We propose an image-based avatar, which fluctuates depending on the information generated by an individual online.
+
+The contribution of this paper is:
+</small>
+<ol type="i">
+<li>we propose an alternative to the username, in the form of a dynamic avatar whose appearance fluctuates depending on the information shared by the user.</li>
+</ol>
+
+</div>
+</dd>
+
+<dt>
+Maguire, J. &amp; <a href="http://www.dcs.gla.ac.uk/~karen">Renaud, K.</a> "<a href="http://doi.acm.org/10.1145/1671011.1671061">Armchair Authentication</a>" In Proceedings of the 23rd British HCI Group Annual Conference on People and Computers: Celebrating People and Technology, (Cambridge, United Kingdom, 2009), ACM, pp.388-397.
+<p><small>Acceptance rate: 25.0% / <a href="javascript:ReverseDisplay('abstract9')">Abstract</a> / <a href="http://www.bcs.org/upload/pdf/ewic_hci09_paper50.pdf">PDF</a> / <a href="https://speakerdeck.com/josephmaguire/armchair-authentication">Slide Deck</a></small></p>
+</dt>
+<dd>
+<div id="abstract9" style="display:none;">
+<small>
+Alphanumeric authentication, by means of a secret, is not only a powerful mechanism, in theory, but prevails over all its competitors in practice. However, it is clearly inadequate in a world where increasing numbers of systems and services require people to authenticate in a shared space, while being actively observed. This new reality places pressure on a password mechanism never intended for use in such a context. Asterisks may obfuscate alphanumeric characters on entry but popular systems, e.g. Apple iPhone and Nintendo Wii, regularly require users to use an on-screen keyboard for character input. This may not be a real concern within the context of secluded space but inadvertly reveals a secret within shared space. Such a secret has an economic cost in terms of replacement, recall and revenue, all of which affect the financial return of the offending systems and services.
+
+In this paper, we present and evaluate a graphical authentication mechanism, Tetrad, which appears to have the potential to address these specific concerns.
+
+The contributions of this paper are:
+</small>
+<ol type="i">
+<li>we propose a observation-resilient graphical authentication mechanism for use on a television.</li>
+<li>we report empirical evidence from a controlled lab-study on performance of observation-resilience and cognitive demands on the user.</li>
+<li>we reflect and discuss the relevance of graphical authentication mechanisms in a shared-space.</li>
+</ol>
+</div>
+</dd>
+</dl>
+<!--
+<dt>
+Maguire, J.,<a href="http://susanstuart.me.uk/" rel="friend met colleague">Stuart, S.</a> &amp; <a href="http://www.psy.gla.ac.uk/~steve/" rel="friend met colleague">Draper, S.W.</a> (2008) "Student generated podcasts: Learning to cascade rather than create" pp.67-77 in A.Comrie, N.J.Mayes, J.T.Mayes &amp; K.Smyth (Editors) Learners in the Co-Creation of Knowledge: Proceedings of the LICK 2008 Symposium, Edinburgh 30 October 2008.
+</dt>
+
+<dd>
+<small>
+There is currently an explosion of exploratory uses of podcasts in education, but only a few where the students, rather than the staff, produce the podcasts. Where it has been done, it has mainly been for students where the technology itself was also relevant to their studies (e.g. computing science or media studies courses). Here however we report on one of these on a course for ‘non-technical’ students from the faculty of Arts. These students were required to produce a single video podcast for their third-year philosophy course. The requirements to present something useful to fellow students and to master a new and fashionable technology are well designed to augment self-confidence and self-efficacy, to engage students, to equip them with a skill that may enhance their employability, and to foster deeper learning. However a basic reason for student generated content of this kind is that authoring for other students (rather than for marking by a staff member) should give impetus to deeper thought about the content. This would not only cement existing knowledge but also supplement it with new perspectives and considerations. Sceptics might argue differently, claiming it to be a gimmick to boost course numbers. However, crafting a report, essay or regurgitating facts on exam day involve different learning experiences and skills to that of giving a persuasive presentation to a large audience.
+
+
+<div>
+<script async class="speakerdeck-embed" data-id="3e4b7cc5bce8472fb520e7a9cab8dea1" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+</div>
+
+</small>
+</dd>
+
+<dt>
+<a href="http://www.psy.gla.ac.uk/~steve/" rel="friend met colleague">Draper, S.W.</a> &amp; Maguire, J. (2007) "Exploring podcasting as part of campus-based teaching" Practice and Evidence of the Scholarship of Teaching and Learning in Higher Education vol.2 no.1 pp.43-65
+</dt>
+
+<dd>
+<small>
+The possibility of using the technologies associated with podcasting and MP3 players to augment campus based HE teaching is explored. A study demonstrating its use in five courses, and eliciting favourable learner attitude responses, is briefly reported. A range of educational applications, including and going beyond those demonstrated in the study, are suggested. The different functions entailed are identified: recording, distribution, playback. The acceptability for each stakeholder group separately is discussed: learners, teachers, IT support. The technology's characteristics are assessed with respect to essential factors for widespread adoption: cost, ease of use (i.e. personal effort and learning costs for users), and educational benefit. The underlying technologies are briefly described, partly to indicate what the fundamental advantages are based on (independently of currently available products) and partly to allow likely longevity to be assessed. Finally some underlying principles from the viewpoint of educational research are proposed and discussed.
+</small>
+</dd>
+-->
+
+
+The afordmentioned papers represent a curated selection, a <a href="/publications/documents/JosephMaguirePublicationList.pdf">full list of publications is available</a> as well.
+
+				</div>
+<div class="post">
+					<h1><a id="participation">Participation</a></h1>
+					<a class="twitter-grid" href="https://twitter.com/_/timelines/657688060151201792" data-chrome="nofooter">Curated list of messages from Twitter</a>
+<script async src="https://platform.twitter.com/widgets.js"></script>
+					
+				</div>
+
+
+
+<div class="post">
+<h1><a id="awards">Awards &amp; Esteem</a></h1>
+<dl>
+<dt><a href="http://www.sicsa.ac.uk/funding/academics-postdoctoral-researchers/individual-research-funding/research-exchanges-pece/">Postdoctoral and Early Career Researcher Exchange</a>, <a href="http://www.sicsa.ac.uk">Scottish Informatics &amp; Computer Science Alliance</a> (&pound;5,900)</dt>
+<dd>
+<small>
+Awarded to support a research exchange with Prof. Melanie Volkamer at the Centre of Advanced Security Research in the Technische Universität Darmstadt in Germany. The opportunity affords me to the opportunity to experience a different environment, development my network and lay the foundation for future collaboration.
+</small>
+</dd>
+
+<dt><a href="http://www.gla.ac.uk/colleges/scienceengineering/graduateschool/scholarships/collegeofscienceandengineeringscholarships2016/">College of Science and Engineering Scholarship</a>, <a href="http://www.glasgow.ac.uk">University of Glasgow</a> (&pound;)</dt>
+<dd>
+<small>
+Pretigious scholarship awarded to cover Ph.D. tuition fees and provide a stipend. The last such scholarship awarded to The School of Computing Science to date.
+</small>
+</dd>
+
+
+<dt><a href="http://www.gla.ac.uk/about/givingtoglasgow/chancellorsfund/">Chancellor's Fund</a>, <a href="http://www.glasgow.ac.uk">University of Glasgow</a> (&pound;31,611)</dt>
+<dd>
+<small>
+Awarded to support the research, development and deployment of technologies and approaches for the learning and development of students in further education. 
+</small>
+</dd>
+
+<!--
+<dt>Class Prize, <a href="http://www.dcs.gla.ac.uk">School of Computer Science</a>, <a href="http://www.glasgow.ac.uk">University of Glasgow</a> (&pound;50)</dt>
+<dd>
+<small>
+Awarded in recognition of performance and attitude during final year of undergraduate study. The prize was &pound;50 of book tokens.
+</small>
+</dd>
+-->
+
+<!--
+<dt>Agrimony Project, <a href="http://scottishwildlifetrust.org.uk">Scottish Wildlife Trust</a></dt>
+<dd>
+<small>
+Originally interested in Art &amp; Design and Architecture, I was a member of a small scale bid, during the final year of high-school, seeking National Lottery Art funding. The aim of the project was to renovate forestry area and make it attractive to the public. Using interesting interactive designs and structures to entice the public. This involved taking additional courses in wood carving and image manipulation, as well as taking a small class of talented younger individuals and teaching them about how to produce professional portfolios.
+
+The project required liasioning with the Scottish Wildlife Trust to ensure the work embraced nature as well as met financial and legal limits. The project bid was successful and the National Lottery Arts Council funded the construction of the designs and park. The centre-piece was a large, circular wooden bench that I had designed from scratch. It was increadibly rewarded to see this materlise.
+</small>
+</dd>
+-->
+</dl>
+</div>
+
+	<div class="post">
+	<h1><a id="talks">Talks</a></h1>
+	
+	<dt>Graduate Employability Challenges and Practices. Centre for Computing Science Education. University of Glasgow. 20th of March 2017.</dt>
+		<dd>.</dd>
+		
+		<dt>Alternative Authentication in the Wild, University of Verona, <a href="http://www.tu-darmstadt.de/index.en.jsp">Socio-Technical Aspects in Security and Trust Workshop</a>, 28th IEEE Computer Security Foundations Symposium (CSF 2015), 13th of July 2015 </dt>
+		<dd>.</dd>
+		
+	<dt>Regulating Access to Adult Content (with Privacy Preservation), Coex Convention and Exhibition Centre, <a href="http://www.tu-darmstadt.de/index.en.jsp">33rd Annual ACM Conference on Human Factors in Computing Systems (CHI 2015)</a>, 23rd of April 2015 </dt>
+		<dd>.</dd>	
+		
+	<dt>Regulating Access to Adult Content (with Privacy Preservation), <a href="http://www.cased.de/en.html">Centre for Advanced Security Research</a>, <a href="http://www.tu-darmstadt.de/index.en.jsp">Technische Universitat Darmstadt</a>, 5th of April 2015 </dt>
+		<dd>.</dd>
+	
+		<dl>
+		<dt><a href="https://www.informatik.tu-darmstadt.de/de/aktuelles/veranstaltungentermine/?no_cache=1&tx_cal_controller%5Bview%5D=event&tx_cal_controller%5Btype%5D=tx_cal_phpicalendar&tx_cal_controller%5Buid%5D=2180&tx_cal_controller%5Byear%5D=2015&tx_cal_controller%5Bmonth%5D=02&tx_cal_controller%5Bday%5D=05&cHash=c4af1f28ffce275bf10c6b2fe375f498">Alternative Authentication Research in Scotland</a>, <a href="http://www.cased.de/en.html">Centre for Advanced Security Research</a>, <a href="http://www.tu-darmstadt.de/index.en.jsp">Technische Universitat Darmstadt</a>, 5th of Feburary 2015 </dt>
+			<dd>
+			<small>
+			Research into graphical authentication has yet to be meaningfully transferred into industry. This is the case globally, but is concerning in Scotland as considerable research into the area has been published and presented by academics in SICSA universities (e.g. University of Glasgow, Glasgow Caledonian University, Napier University). The lack of knowledge transfer is particularly perplexing given the interest of industry in improving digital security.
+			There are several explanations for the lack of progress, but a prominent issue is the inconsistency in reporting scientific data pertaining to graphical authentication. There is no framework for the reporting of field investigations into graphical authentication solutions. This situation not only hinders knowledge transfer into industry but the progress of research into alternative authentication solutions. Industry and researchers require metrics and strong qualitative data to utilise and progress research in the area.
+			Consequently, the Scottish Informatics and Computer Science Alliance (SICSA) has provided financial support for a research exchange for me to visit and work with Prof. Melanie Volkamer. The primary aim of the proposed exchange is to develop a field evaluation framework for graphical authentication solutions to ensure consistent reporting of scientific data. The Center for Advanced Security Research at Technische Universität Darmstadt has an established track record of transferring knowledge into industry. Notably, Prof. Melanie Volkamer from the Technische Universität Darmstadt, along with Dr Karen Renaud and myself at the University of Glasgow have collaborated and made progress in transferring knowledge of graphical authentication research into industry.
+			</small>
+			<dt>Shrinking the Authentication Footprint. Seventh International Symposium on Human Aspects of Information Security & Assurance. 8th of May 2013.</dt>
+		<dd>.</dd>
+			
+	<dt>You only live twice or the years we wasted caring about shoulder-surfing. University of Birmingham. 12th of September 2012. </dt>
+		<dd>.</dd>
+		
+				
+	<dt>An Alternative Avatar. BCS conference on Human Computer Interaction. Newcastle University. 5th of July 2011. </dt>
+		<dd>.</dd>
+		
+			
+	<dt>Armchair Authentication. BCS conference on Human Computer Interaction. University of Cambridge. 3rd of September 2009. </dt>
+		<dd>.</dd>
+
+	
+	
+
+<!--
+			<div>
+				<script async class="speakerdeck-embed" data-id="332ed2261fde4b74be34da1cc4738c65" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+			</div>
+		-->
+			</dd>
+
+		<dt>Keynote: Embedding podcasting in the curriculum. Media Enhanced Learning Special Interest Group. Glasgow Caledonian University. 7th of May 2009.</dt>
+		<dd>.</dd>
+		
+				
+	<dt>Student generated podcasts: Learning to cascade rather than create. 2nd Annual University of Glasgow Learning and Teaching Conference. University of Glasgow. 24th of April 2009.</dt>
+		<dd>.</dd>
+		
+			
+	<dt>Student generated podcasts: Learning to cascade rather than create. Learners in the Co-creation of Knowledge Symposium. Napier University. 30th of October 2008. </dt>
+		<dd>.</dd>
+		
+</dl>
+
+	</div>
+
+
+	<div class="post">
+		<h1><a id="teaching">Teaching</a></h1>
+		<p>
+<dl>
+<dt><a href="http://www.gla.ac.uk/coursecatalogue/course/?code=COMPSCI5008">Enterprise Computing M</a>, Course Leader and Primary Lecturer to &asymp;80 enrolled students, Session: 2014-2015</dt>
+<dd>
+<small> 
+<!--
+Computing Science as a discipline is wide and deep and is only expanding, it would take an individual years to become an expert in security, usability, development and analysis. The aim of Enterprise Computing is to present valuable computing science concepts that are pertinent and applicable to the enterprise, without requiring students to deep dive into each research area. A simple example of this train of thought is economics. The discipline of economics is vast, challenging and full of ideas, but the concept of supply and demand is incredibly powerful. An individual only needs to spend a fraction of time understanding supply and demand and they can apply it to many aspect of their enterprise. They do not need to study the entire discipline of economics. 
+
+In this sense, the course caters to both advanced computing science students and those from other disciplines. Students from other disciplines may not be the strongest programmers but within an enterprise they can act as liaisons between individuals with different core competencies, e.g. programming and management, to achieve enterprise goals. For students with advanced computing science skills they have the opportunity to refine their soft skill set, e.g. group work, reviewing and presenting. An often undervalued set of skills that are necessary to function within large enterprises. Moreover, advance students have the opportunity to expand and fill in the gaps of their knowledge of different areas of computing science.  
+-->
+</small>
+
+<!--
+<div>
+<script async class="speakerdeck-embed" data-id="9bdbdf115fa343599c99e145bc007b06" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</div>
+-->
+
+</dd>
+</dl>
+	</div>		
+
+
+
+
+
+		</div>
+		
+		<!---
+                <nav>
+                    <ul>
+                        <li><a href="#">nav ul li a</a></li>
+                        <li><a href="#">nav ul li a</a></li>
+                        <li><a href="#">nav ul li a</a></li>
+                    </ul>
+                </nav>
+		-->
+            <!---</header>-->
+        <!--</div>-->
+
+
+<!---
+        <div class="footer-container">
+            <footer class="wrapper">
+	<h3>Contact</h3>
+
+<p class="vcard"> 
+	<a class="fn">
+		<img class="photo" alt="Face" height="50" width="50" src="http://www.dcs.gla.ac.uk/~joseph/older/images/squareFace.png"/><br>
+		<span class="given-name">Joseph</span>
+		<span class="family-name">Maguire</span><br>
+		School of Computing Science<br>
+		University of Glasgow<br>
+	</a>
+	<span class="adr"> 
+		<span class="street-address">Sir Alywn Building</span><br>
+		<span class="locality">Glasgow</span><br> 
+		<span class="region">Scotland</span><br> 
+		<span class="postal-code">G12 8QQ</span><br>
+		<span class="country-name">United Kingdom</span><br><br>
+	</span>
+	<a class="url">www.dcs.gla.ac.uk/~joseph</a><br>
+	<a class="email">joseph.maguire @ glasgow.ac.uk</a><br>
+	<span class="tel">0141 330 2000</span>
+	
+</p>
+	
+	
+
+
+
+
+            </footer>
+        </div>
+-->        
+    </body>
 </html>
